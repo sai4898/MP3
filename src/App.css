@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.playlist-container {
+  margin-bottom: 20px;
+}
+
+.playlist {
+  list-style: none;
+  padding: 0;
+}
+
+.playlist-item {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.now-playing-container {
+  text-align: center;
+}
+
+.now-playing-container audio {
+  margin-top: 10px;
+}
